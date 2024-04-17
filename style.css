@@ -1,0 +1,198 @@
+body{
+ margin: 0;
+ padding: 0;
+
+text-align: center;
+padding: 50px;
+    background-size:cover;
+    background-repeat:no-repeat;
+    animation: background;
+    animation-iteration-count: infinite;
+    animation-duration: 30s;
+   
+}
+
+.hikayem{
+    text-align: justify;
+}
+.card{
+    position:inherit;
+
+  border: 3px #f69e76 solid;
+  
+    background-color: #f2bba1;
+   
+    text-align: center;
+   
+     color: #ffff;
+      text-align: center;
+  
+  opacity: 0.8;
+    
+}
+.card img{
+    
+   
+    
+    
+    
+    cursor: pointer;
+    text-align: center;
+   
+}
+.card text{
+    text-align: center;
+    font-size: large;
+}
+
+.card img :hover{
+    transform: scale(0,9);
+}
+ul{
+  margin: 0;
+  padding: 1;
+
+  
+}
+
+.card li{
+    display:inline-block;
+    margin: 3px;
+    list-style: none;
+    
+    text-align: center;
+   
+}
+.card li a{
+  
+    color: #ffff;
+    font-size: 30px;
+    transition: all ease-in-out 250ms;
+
+}
+.card li a:hover{
+    color: black;
+}
+.form-control {
+	background: #FFF;
+	border: 1px solid #D8E1E4;
+	font-size: 12px;
+	padding: 0 15px;
+}
+
+.form-control:focus{
+    border-color: rgba(135, 135, 135, 0.7);
+}
+.div2{
+    text-align: center;
+    border: 1px #587e81;
+}
+#footer{
+    
+        background: #587e81;
+        text-align: center;
+        padding: 10px 0;
+        color: #FFF;
+        border: 1px #ec6363 solid;
+    
+}
+.card text-center{
+    text-align: center;
+    border: 2px black solid;
+}
+
+.card h1{
+    margin-top:0px;
+    bottom: 30px;
+    font-weight: 100;
+ 
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family:"Tajawal", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    top:35px;
+    letter-spacing: 4px;
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+
+    font-style: normal;
+
+}
+.yazi1{
+    font-size: large;
+    top: 25px;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+.yazi{
+    font-size: medium;
+    text-align:center;
+    color: rgb(61, 60, 59);
+}
+.container{
+position: relative;
+left:50%;
+right: 70%;
+top: 12%;
+bottom: auto;
+}
+.bilgilerim{
+    position: relative;
+    top: 25%;
+    left:8%;
+    bottom: 12%;
+    right:38%;
+  
+}
+.hobi{
+    position: relative;
+   
+    right: 40%;
+}
+.iletisim{
+    position: relative;
+   right: 32%;
+   bottom: 2px;
+}
+
+@keyframes background{
+    0%{
+        background-image: url(img/1.png);
+    }
+    10%{
+        background-image:url(img/2.png);
+    }
+    20%{
+        bacground-image:url(img/3.png);
+    }
+    30%{
+        background-image:url(img/4.png);
+    }
+    40%{
+        background-image:url(img/5.png);
+    }
+    50%{
+        background-image:url(img/6.png)  ;
+    }
+    60%{
+        background-image:url(img/7.png)
+    }
+    70%{
+        background-image: url(img/10.png);
+    }
+    80%{
+        background-image:url(img/11.png);
+    }
+    90%{
+        background-image:url(img/9.png);
+    }
+    100%{
+        background-image:url(img/1.png);
+    }
+   
+
+}
