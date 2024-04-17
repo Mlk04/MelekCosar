@@ -161,37 +161,37 @@ bottom: auto;
 
 @keyframes background{
     0%{
-        background-image: url(img/1.png);
+        background-image: url(/img/1.png);
     }
     10%{
-        background-image:url(img/2.png);
+        background-image:url(/img/2.png);
     }
     20%{
-        bacground-image:url(img/3.png);
+        bacground-image:url(/img/3.png);
     }
     30%{
-        background-image:url(img/4.png);
+        background-image:url(/img/4.png);
     }
     40%{
-        background-image:url(img/5.png);
+        background-image:url(/img/5.png);
     }
     50%{
-        background-image:url(img/6.png)  ;
+        background-image:url(/img/6.png)  ;
     }
     60%{
-        background-image:url(img/7.png)
+        background-image:url(i/mg/7.png)
     }
     70%{
-        background-image: url(img/10.png);
+        background-image: url(/img/10.png);
     }
     80%{
-        background-image:url(img/11.png);
+        background-image:url(/img/11.png);
     }
     90%{
-        background-image:url(img/9.png);
+        background-image:url(/img/9.png);
     }
     100%{
-        background-image:url(img/1.png);
+        background-image:url(/img/1.png);
     }
    
 
